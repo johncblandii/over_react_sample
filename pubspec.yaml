@@ -1,0 +1,19 @@
+name: over_react_sample
+version: 1.0.0
+description: Just testing the overage.
+author: John C. Bland II
+environment:
+  sdk: ">=1.17.1"
+dependencies:
+  over_react: 1.1.1
+dev_dependencies:
+  matcher: ">=0.11.0 <0.13.0"
+  coverage: "^0.7.2"
+  dart_dev: "^1.0.5"
+  markdown: "^0.8.0"
+  mockito: "^0.11.0"
+  test: "^0.12.6+2"
+
+transformers:
+  - over_react
+  - $dart2js
